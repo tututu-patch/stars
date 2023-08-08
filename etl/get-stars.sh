@@ -18,5 +18,7 @@ while [ "$URL" ]; do
   if [[ $MAX_PAGES -ne 0 && $COUNTER -eq $MAX_PAGES ]]; then break; fi
   
   let COUNTER=COUNTER+1
+  sleep 10
+  
 done
     
