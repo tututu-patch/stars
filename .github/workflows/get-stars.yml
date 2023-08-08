@@ -17,10 +17,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}          
           USERNAME: ${{ github.repository_owner }}
+        continue-on-error: true
         run: |
           ./etl/get-stars.sh > ./stars.json
-          # ./etl/stars-to-csv.sh ./stars.json > ./stars.csv
-          # rm ./stars.json
+          ./etl/stars-to-csv.sh ./stars.json > ./stars.csv
+          rm ./stars.json
         shell: bash
 
       # Commit the changes
