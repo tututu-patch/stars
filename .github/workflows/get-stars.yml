@@ -19,8 +19,8 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
         run: |
           ./etl/get-stars.sh > ./stars.json
-          ./etl/stars-to-csv.sh ./stars.json > ./stars.csv
-          rm ./stars.json
+          # ./etl/stars-to-csv.sh ./stars.json > ./stars.csv
+          # rm ./stars.json
         shell: bash
 
       # Commit the changes
