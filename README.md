@@ -2,7 +2,7 @@
 
 Daily export of my GitHub starred repos in [stars.csv](stars.csv)
 
-Browse with GitHub's [Flat Viewer](https://github.com/githubocto/flat-viewer) at [`flatgithub.com/WinstonFassett/stars`](https://flatgithub.com/WinstonFassett/stars?filename=stars.csv&sort=%20starred_at%2Cdesc)
+Browse with GitHub's [Flat Viewer](https://github.com/githubocto/flat-viewer) at [`flatgithub.com/tututu-patch/stars`](https://flatgithub.com/tututu-patch/stars?filename=stars.csv&sort=%20starred_at%2Cdesc)
 
 ## ETL
 
